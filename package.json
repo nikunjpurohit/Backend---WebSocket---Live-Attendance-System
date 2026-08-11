@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:3000": "cross-env PORT=3000 node index.js",
+    "start:3001": "cross-env PORT=3001 node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "express": "^5.2.1",
     "ioredis": "^5.11.1",
     "ws": "^8.21.3"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
   }
 }

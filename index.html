@@ -201,7 +201,9 @@
 
     <script>
         const { port } = window.location;
-        const connection = new WebSocket(`ws://localhost:${port}`)
+        const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+        const connection = new WebSocket(`${protocol}//${window.location.host}`);
+
 
         connection.onopen = () => {
             console.log("Connected to server");
