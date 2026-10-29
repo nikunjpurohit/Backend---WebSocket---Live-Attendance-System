@@ -1,4 +1,7 @@
 Backend + WebSocket - Live Attendance System
+
+Link - https://brindle-goal-102.notion.site/Backend-WebSocket-Live-Attendance-System-2c646b36b2e980b09b42d7c0240a8170
+
 A comprehensive Node.js backend application featuring JWT authentication, role-based access control (Teacher & Student), class management CRUD operations, and real-time live attendance tracking powered by WebSockets (ws) and MongoDB persistence.
 
 🛠️ Tech Stack
